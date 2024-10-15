@@ -1,0 +1,38 @@
+# Binárisok és build fájlok
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+
+# CLion (és JetBrains IDE specifikus) fájlok
+.idea/
+*.iml
+cmake-build-*/
+
+# OpenCV és Tesseract build mappák és fájlok
+opencv/build/
+opencv/*.dll
+tesseract/build/
+tesseract/*.dll
+
+# Adatok, képek, temp fájlok
+*.jpg
+*.png
+data/
+*.tmp
+*.temp
+
+# Editor temp fájlok (pl. vim, nano)
+*.swp
+*.swo
+*.bak
