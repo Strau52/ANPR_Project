@@ -149,6 +149,6 @@ int main() {
     } else {
         cerr << "Nem található rendszám!" << endl;
     }
-
+    waitKey(0);
     return 0;
 }

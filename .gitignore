@@ -36,3 +36,6 @@ data/
 *.swp
 *.swo
 *.bak
+/.vs/
+/cmake-build-debug/
+/cmake-build-release/
